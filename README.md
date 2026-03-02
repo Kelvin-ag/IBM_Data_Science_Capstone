@@ -50,4 +50,5 @@ Comparing the accuracy of the four classification models, all return the same ac
 - Plotly Dash
 - Beautiful soup
 - Folium
-## Full project report here[]()
+## Full project PowerPoint report here
+[Report](ds-capstone.pptx)

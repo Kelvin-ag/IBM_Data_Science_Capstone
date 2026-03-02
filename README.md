@@ -21,12 +21,33 @@ Space X advertises Falcon 9 rocket launches on its website with a cost of 62 mil
 1. Requests made to SpaceX API 
 2. Data scraped from SpaceX Wiki page
 ### Notebooks
-1.[Data collection](spacex_data_collection.ipynb)
-2.[Data scraping](webscraping.ipynb)
-3.[Data Wrangling](Data_wrangling.ipynb)
-4.[EDA with SQL](eda.ipynb)
-5.[Data Visualization](dataviz.ipynb)
-6.[Geospatial analysis with Folium](site_location.ipynb)
-7.[Predictions](Prediction.ipynb)
-
-
+1.[Data collection](spacex_data_collection.ipynb)<br>
+2.[Data scraping](webscraping.ipynb)<br>
+3.[Data Wrangling](Data_wrangling.ipynb)<br>
+4.[EDA with SQL](eda.ipynb)<br>
+5.[Data Visualization](dataviz.ipynb)<br>
+6.[Geospatial analysis with Folium](site_location.ipynb)<br>
+7.[Predictions](Prediction.ipynb)<br>
+## Results
+### Exploratory data analysis results
+- Analyzing the results shows that heavier payload have a higher success rate than lighter ones
+- The results also show that success rate has been increasing yearly
+### Predictive analysis results
+Comparing the accuracy of the four classification models, all return the same accuracy of about 83% for test data.
+### Conclusions
+- As the number of flights increased, the success rate increased, and recently it has exceeded 80%.
+- Orbital types SSO, HEO, GEO, and ES-L1 have the highest success rate (100%).
+- The launch site is close to railways, highways, and coastline, but far from cities.
+- KSLC-39A has the highest number of launch successes and the highest success rate among all sites.
+- The launch success rate of low weighted payloads is higher than that of heavy weighted payloads.
+- The best performing classification model is the Decision Tree model
+## Tools and Libraries
+- Python 3.8 or higher
+- SQL
+- Pandas
+- Numpy
+- Matplotlib, Seaborn
+- Plotly Dash
+- Beautiful soup
+- Folium
+## Full project report here[]()
